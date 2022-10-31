@@ -1,0 +1,83 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "bracket-pair-colorizer-2.activeScopeCSS": [
+
+        "borderStyle : solid",
+        "borderWidth : 2px",
+        "borderColor : {color}",
+        "opacity: 0.5"
+    ],
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.tabWidth": 2,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.lineNumbers": "on",
+    "zenMode.hideLineNumbers": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tabSize": 2,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "One Dark italic",
+                "scope": [
+                    "comment",
+                    "entity.other.attribute-name",
+                    "keyword",
+                    "markup.underline.link",
+                    "storage.modifier",
+                    "storage.type",
+                    "string.url",
+                    "variable.language.super",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "One Dark italic reset",
+                "scope": [
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "code-runner.runInTerminal": true,
+    "editor.guides.indentation": true,
+    "workbench.colorTheme": "One Material Dark+",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html",
+        "vue": "html",
+    },
+    "workbench.colorCustomizations": {
+        // "editor.selectionBackground": "#e788ff", //Current SELECTED text
+        // "editor.selectionHighlightBackground": "#f2ff00d8", //same content as the selection
+        "editor.findMatchBackground": "#c8f516eb", //Current SEARCH MATCH
+        // "editor.findMatchHighlightBackground": "#ff7b00a1" //Other SEARCH MATCHES
+
+        "minimapSlider.background": "#1fe6d240",
+        "minimapSlider.hoverBackground": "#ff0000",
+        "minimapSlider.activeBackground": "#2f00ff50"
+    },
+    "editor.minimap.showSlider": "always"
+
+}
