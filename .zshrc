@@ -1,9 +1,5 @@
-alias vim='nvim'
-export EDITOR='nvim'
-
-TERM=xterm
-
-alias	ls='ls --color'
-export LSCOLORS=g     
-
+alias   ls='ls --color'
+#export LSCOLORS=g
+export LSCOLORS=cxgxfxexbxegedabagacad
 PROMPT='%F{red}::%f %F{green}%~%f %F{magenta}»%f '
+export PATH=/opt/homebrew/bin:$PATH
