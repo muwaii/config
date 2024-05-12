@@ -1,0 +1,6 @@
+alias   ls='ls --color'
+#export LSCOLORS=g     
+export LSCOLORS=cxgxfxexbxegedabagacad
+PROMPT='%F{red}::%f %F{green}%~%f %F{magenta}»%f '
+
+export PATH=/opt/homebrew/bin:$PATH
