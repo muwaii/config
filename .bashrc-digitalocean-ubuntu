@@ -1,3 +1,4 @@
 PS1='\[\033[31m\]::\[\033[0m\] \[\033[32m\]\w\[\033[0m\] \[\033[35m\]»\[\033[0m\] ' #work like my OPDmacbook
 
 PS1='\[\033[31m\]$USER\[\033[0m\] \[\033[32m\]\w\[\033[0m\]\[\033[35m\] ~ $\[\033[0m\] ' # this one ok
+#https://unix.stackexchange.com/questions/127799/how-can-i-get-my-ps1-prompt-to-show-time-user-host-directories-and-git-branc
